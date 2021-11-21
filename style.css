@@ -6,3 +6,132 @@
     box-sizing: border-box;
     font-family: 'Noto Sans KR', sans-serif;
 }
+
+.divver {
+    width: 400px;
+    padding: 16px;
+    padding-top: 64px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.sub-title {
+    margin-top: 8px;
+    border-left: solid 6px #6C9DFE;
+    padding: 2px 8px;
+}
+
+#canvas {
+    margin-top: 32px;
+    width: 100%;
+    background-color: #F2F3F8;
+}
+
+.inputs {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input .name {
+    margin-right: 8px;
+}
+
+.input input {
+    background-color: #F2F3F8;
+    border: solid 2px #dedede00;
+    width: 64px;
+    height: 32px;
+    border-radius: 4px;
+    padding: 4px 8px;
+    transition: 200ms;
+    text-align: center;
+}
+
+.input input:focus {
+    border: solid 2px #DEDEDE;
+    outline: none;
+}
+
+.input .input-btn {
+    background-color: #F2F3F8;
+    border: solid 2px #dedede00;
+    width: 72px;
+    height: 32px;
+    border-radius: 4px;
+    transition: 200ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.input .input-btn:hover {
+    background-color: #e3e4e9;
+}
+
+
+.starts {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start {
+    cursor: pointer;
+    width: 120px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F3F8;
+    transition: 200ms;
+    user-select: none;
+}
+
+.start:hover {
+    background-color: #e3e4e9;
+}
+
+.start-1 {
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.start-2 {
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.starts .selected {
+    background-color: #6C9DFE;
+    color: #ffffff;
+}
+
+.starts .selected:hover {
+    background-color: #6C9DFE;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 60px;
+    color: #D5D5D5;
+    text-align: center;
+}
+
+.copyright a {
+    color: #D5D5D5;
+}
