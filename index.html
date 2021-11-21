@@ -7,10 +7,32 @@
     <title>SSR 몬티홀 문제</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+    <script src="sketch.js"></script>
 </head>
 <body>
     <div class="divver">
         <h1>Monty Hall Problem</h1>
+        <div class="sub-title">몬티 홀 문제</div>
+        <div id="canvas"></div>
+        <div class="inputs">
+            <div class="input">
+                <div class="name">시행 횟수</div>
+                <input type="number" id="trials" value="100">
+            </div>
+            <div class="input">
+                <div class="name">시행 속도</div>
+                <div class="input-btn" id="speed">빠르게</div>
+            </div>
+        </div>
+        <div class="starts">
+            <div class="start start-1" id="start-change">바꾼다</div>
+            <div class="start start-2" id="start-no-change">안 바꾼다</div>
+        </div>
+        <div class="copyright">
+            <p>SSR Project By 박현우, 이재진</p>
+            <p><a href="https://github.com/HyunsDev/SSR-monty-hall-problem-p5js">https://github.com/HyunsDev/SSR-monty-hall-problem-p5js</a></p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
