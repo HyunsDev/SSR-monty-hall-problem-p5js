@@ -118,7 +118,7 @@ let sketch = function (p) {
         p.fill(0)
         p.strokeWeight(0)
         p.text(`성공 횟수 : ${result.win_rate}`, options.size / 2 - 100, options.size - 30); // 성공 횟수
-        p.text(`${Math.round((result.win_rate / result.count) * 100)}%`, options.size / 2, options.size - 30); // 승률
+        p.text(`${Math.round((result.win_rate / (result.win_rate+result.lose_rate)) * 100)}%`, options.size / 2, options.size - 30); // 승률
         p.text(`실패 횟수 : ${result.lose_rate}`, options.size / 2 + 100, options.size - 30); // 실패 횟수
 
         // 실험 종료
